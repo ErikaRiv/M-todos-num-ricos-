@@ -229,7 +229,7 @@ b_pivot_large = piv2[2] #Extraigo la matriz b del return anterior
 print("La solución de la matriz 100x1100 usando eliminación gaussiana con pivoteo es:" )
 print(Sol_pivot_large)
 error_piv_large = np.linalg.norm(np.dot(A_pivot_large,Sol_pivot_large)-np.transpose(b_pivot_large))
-print("Con un error de: ", error_piv_large-1)
+print("Con un error de: ", error_piv_large)
 
 #--------------------Para el uso del método de Crout--------------------------
 
